@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="parchment">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Booth Registration — IAGT</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,800;0,900;1,400;1,600&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-active="booth">
+
+<!-- AMBIENT BACKGROUND -->
+<div class="bg-scene" aria-hidden="true">
+  <div class="bg-gradient"></div>
+  <div class="bg-grid"></div>
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+  <div class="orb orb-4"></div>
+</div>
+
+<!-- ══════════════ NAVBAR ══════════════ -->
+<nav id="nav">
+  <a href="index.html" class="nav-logo">
+    <div class="nav-logo-mark">🪷</div>
+    <div class="nav-logo-text"><em>IA</em>GT</div>
+  </a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html"        data-page="home">Home</a></li>
+    <li><a href="about.html"        data-page="about">About</a></li>
+    <li><a href="events.html"       data-page="events">Events</a></li>
+    <li><a href="membership.html"   data-page="membership">Membership</a></li>
+    <li><a href="sponsorship.html"  data-page="sponsorship">Sponsorship</a></li>
+    <li><a href="booth.html"        data-page="booth">Booth Reg.</a></li>
+    <li><a href="contact.html"      data-page="contact">Contact</a></li>
+    <li><a href="membership.html"   class="nav-cta">Join IAGT</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger">
+    <span></span><span></span><span></span>
+  </div>
+  <!-- THEME SWITCHER -->
+  <div class="theme-switcher" id="themeSwitcher">
+    <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Change theme">
+      <span class="theme-icon" id="themeIcon">🌅</span>
+      <span class="theme-chevron">▾</span>
+    </button>
+    <div class="theme-menu" id="themeMenu">
+      <div class="theme-menu-title">Choose Theme</div>
+      <button class="theme-option" data-theme="parchment">
+        <span class="theme-swatch" style="background:linear-gradient(135deg,#F7F3ED,#B8772A)"></span>
+        <span class="theme-option-text">
+          <span class="theme-option-name">🌅 Parchment</span>
+          <span class="theme-option-desc">Warm light</span>
+        </span>
+      </button>
+      <button class="theme-option" data-theme="midnight">
+        <span class="theme-swatch" style="background:linear-gradient(135deg,#0D0F1A,#D4A853)"></span>
+        <span class="theme-option-text">
+          <span class="theme-option-name">🌙 Midnight</span>
+          <span class="theme-option-desc">Dark indigo</span>
+        </span>
+      </button>
+      <button class="theme-option" data-theme="emerald">
+        <span class="theme-swatch" style="background:linear-gradient(135deg,#F2F7F4,#2A7A52)"></span>
+        <span class="theme-option-text">
+          <span class="theme-option-name">🌿 Emerald</span>
+          <span class="theme-option-desc">Fresh green</span>
+        </span>
+      </button>
+      <button class="theme-option" data-theme="regal">
+        <span class="theme-swatch" style="background:linear-gradient(135deg,#12091E,#D4A853)"></span>
+        <span class="theme-option-text">
+          <span class="theme-option-name">👑 Regal</span>
+          <span class="theme-option-desc">Dark purple</span>
+        </span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<main>
+<div class="page-hero">
+    <div class="page-hero-glow"></div>
+    <div class="eyebrow">India Fest 2025</div>
+    <h1>Booth <span class="gold-text">Registration</span></h1>
+    <p>Reserve your space at Tulsa's premier Indian cultural festival. Limited booths available.</p>
+  </div>
+
+  <div class="section">
+    <div class="glass fade-up" style="padding:56px;margin-bottom:40px;">
+      <div class="eyebrow">What's Included</div>
+      <h2 style="margin-bottom:24px;">Booth <span class="gold-text">Details</span></h2>
+      <p style="margin-bottom:36px;">Each booth reservation includes a standard 10×10 space with one folding table and two chairs. Setup begins at 8:00 AM on event day. All vendors must be approved prior to the event.</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:20px;">
+        <div style="text-align:center;padding:28px;background:var(--glass-1);border-radius:var(--r-sm);border:1px solid var(--glass-border-1);">
+          <div style="font-size:2rem;margin-bottom:12px;">📐</div>
+          <div style="font-weight:700;color:var(--cream);margin-bottom:4px;">10 × 10 ft</div>
+          <div style="font-size:0.82rem;color:rgba(28,26,22,0.45);">Booth Space</div>
+        </div>
+        <div style="text-align:center;padding:28px;background:var(--glass-1);border-radius:var(--r-sm);border:1px solid var(--glass-border-1);">
+          <div style="font-size:2rem;margin-bottom:12px;">🪑</div>
+          <div style="font-weight:700;color:var(--cream);margin-bottom:4px;">Table + 2 Chairs</div>
+          <div style="font-size:0.82rem;color:rgba(28,26,22,0.45);">Included</div>
+        </div>
+        <div style="text-align:center;padding:28px;background:var(--glass-1);border-radius:var(--r-sm);border:1px solid var(--glass-border-1);">
+          <div style="font-size:2rem;margin-bottom:12px;">📋</div>
+          <div style="font-weight:700;color:var(--cream);margin-bottom:4px;">Pre-Approval</div>
+          <div style="font-size:0.82rem;color:rgba(28,26,22,0.45);">Required for all vendors</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="booth-fee-grid">
+      <div class="glass-deep booth-fee-card fade-up">
+        <div class="fee-type">Nonprofit Organizations</div>
+        <div class="fee-amount free">Free</div>
+        <div class="fee-note">Complimentary booth for registered nonprofits</div>
+        <a href="#" class="btn btn-primary" style="width:100%;text-align:center;" href="contact.html">Request a Booth</a>
+      </div>
+      <div class="glass-deep booth-fee-card fade-up d1">
+        <div class="fee-type">Commercial Vendors</div>
+        <div class="fee-amount">$250</div>
+        <div class="fee-note">One-time registration fee per booth</div>
+        <a href="#" class="btn btn-outline" style="width:100%;text-align:center;" href="contact.html">Request a Booth</a>
+      </div>
+    </div>
+  </div>
+
+<!-- ════════════════════════════════════════
+     CONTACT PAGE
+     ════════════════════════════════════════ -->
+
+</main>
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div style="display:flex;align-items:center;gap:12px;margin-bottom:4px;">
+        <div class="nav-logo-mark" style="width:36px;height:36px;">🪷</div>
+        <div class="footer-logo"><em>IA</em>GT</div>
+      </div>
+      <p>India Association of Greater Tulsa — celebrating culture, building community, and fostering unity across Greater Tulsa since 1972. Nonprofit 501(c)(3).</p>
+    </div>
+    <div class="footer-col">
+      <h4>Navigate</h4>
+      <a href="index.html">Home</a>
+      <a href="about.html">About IAGT</a>
+      <a href="events.html">Events</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="footer-col">
+      <h4>Get Involved</h4>
+      <a href="membership.html">Membership</a>
+      <a href="sponsorship.html">Sponsorship</a>
+      <a href="booth.html">Booth Registration</a>
+    </div>
+    <div class="footer-col">
+      <h4>Connect</h4>
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">iagtok.org</a>
+      <a href="#"><span class="__cf_email__" data-cfemail="4e272028210e272f293a212560213c29">[email&#160;protected]</span></a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 India Association of Greater Tulsa · All rights reserved · Nonprofit 501(c)(3)</p>
+    <p style="color:rgba(247,243,237,0.18);">iagtok.org</p>
+  </div>
+</footer>
+
+
+<script src="js/main.js"></script>
+</body>
+</html>

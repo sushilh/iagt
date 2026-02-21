@@ -1,0 +1,121 @@
+╔══════════════════════════════════════════════════════════╗
+║   IAGT Website — Deploying to Render.com                 ║
+║   Free static site hosting in ~5 minutes                 ║
+╚══════════════════════════════════════════════════════════╝
+
+WHAT YOU NEED
+─────────────
+  • A free GitHub account  →  github.com
+  • A free Render account  →  render.com
+  • This website folder
+
+════════════════════════════════════════
+STEP 1 — Put files on GitHub
+════════════════════════════════════════
+
+1. Go to github.com and sign in (or create free account)
+
+2. Click the green "New" button to create a new repository
+   • Name it:  iagt-website
+   • Set to:   Public  (required for free Render hosting)
+   • Click:    "Create repository"
+
+3. Upload your files:
+   • Click "uploading an existing file" link on the new repo page
+   • Drag the entire iagt-website/ folder contents into the box
+     (upload ALL files: index.html, about.html, css/, js/, fonts/)
+   • Scroll down, click "Commit changes"
+
+   ✅ Your files are now on GitHub!
+
+════════════════════════════════════════
+STEP 2 — Connect to Render
+════════════════════════════════════════
+
+4. Go to render.com and sign in (or create free account)
+
+5. Click "New +" button in the top right
+
+6. Select "Static Site" from the dropdown
+
+7. Click "Connect GitHub" and authorize Render to access your account
+
+8. Find and select your "iagt-website" repository, click "Connect"
+
+════════════════════════════════════════
+STEP 3 — Configure the deployment
+════════════════════════════════════════
+
+9. Fill in these settings:
+   ┌─────────────────────────────────────────────────────┐
+   │  Name:              iagt-website                    │
+   │  Branch:            main                            │
+   │  Root Directory:    (leave blank)                   │
+   │  Build Command:     (leave blank)                   │
+   │  Publish Directory: .          ← just a dot        │
+   └─────────────────────────────────────────────────────┘
+
+10. Click "Create Static Site"
+
+════════════════════════════════════════
+STEP 4 — Your site is live!
+════════════════════════════════════════
+
+11. Render will build and deploy in about 30–60 seconds
+
+12. Your site will be live at:
+      https://iagt-website.onrender.com
+    (or similar — Render shows you the URL)
+
+13. Click the URL to see your live website! 🎉
+
+════════════════════════════════════════
+STEP 5 — Add your custom domain (Optional)
+════════════════════════════════════════
+
+To use iagtok.org instead of the .onrender.com URL:
+
+14. In Render dashboard, go to your site → Settings → Custom Domains
+
+15. Click "Add Custom Domain" and type:  iagtok.org
+
+16. Render will show you DNS settings to add:
+      Type:   CNAME
+      Name:   www
+      Value:  iagt-website.onrender.com
+
+17. Log into your domain registrar (GoDaddy, Namecheap, etc.)
+    and add those DNS records
+
+18. Wait 5–60 minutes for DNS to propagate — then your site
+    will be live at iagtok.org with free HTTPS! ✅
+
+════════════════════════════════════════
+FUTURE UPDATES — Automatic!
+════════════════════════════════════════
+
+After setup, updating the site is simple:
+
+  → Edit a file → upload to GitHub → Render auto-deploys in ~30 seconds
+
+No manual rebuilding. No servers to manage. It's all automatic.
+
+════════════════════════════════════════
+WHAT'S FREE ON RENDER
+════════════════════════════════════════
+  ✅ Static site hosting — FREE
+  ✅ Custom domain — FREE
+  ✅ HTTPS/SSL certificate — FREE (auto-renewing)
+  ✅ Global CDN — FREE
+  ✅ 100 GB/month bandwidth — FREE
+  ✅ Unlimited team members — FREE
+  ✅ Auto-deploy on push — FREE
+
+The only cost would be if you exceed 100 GB/month in traffic,
+which is extremely unlikely for a nonprofit community website.
+
+════════════════════════════════════════
+NEED HELP?
+════════════════════════════════════════
+  Render Docs:     render.com/docs/static-sites
+  Render Support:  community.render.com

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="parchment">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Events — IAGT</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,800;0,900;1,400;1,600&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-active="events">
+
+<!-- AMBIENT BACKGROUND -->
+<div class="bg-scene" aria-hidden="true">
+  <div class="bg-gradient"></div>
+  <div class="bg-grid"></div>
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+  <div class="orb orb-4"></div>
+</div>
+
+<!-- ══════════════ NAVBAR ══════════════ -->
+<nav id="nav">
+  <a href="index.html" class="nav-logo">
+    <div class="nav-logo-mark">🪷</div>
+    <div class="nav-logo-text"><em>IA</em>GT</div>
+  </a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html"        data-page="home">Home</a></li>
+    <li><a href="about.html"        data-page="about">About</a></li>
+    <li><a href="events.html"       data-page="events">Events</a></li>
+    <li><a href="membership.html"   data-page="membership">Membership</a></li>
+    <li><a href="sponsorship.html"  data-page="sponsorship">Sponsorship</a></li>
+    <li><a href="booth.html"        data-page="booth">Booth Reg.</a></li>
+    <li><a href="contact.html"      data-page="contact">Contact</a></li>
+    <li><a href="membership.html"   class="nav-cta">Join IAGT</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger">
+    <span></span><span></span><span></span>
+  </div>
+  <!-- THEME SWITCHER -->
+  <div class="theme-switcher" id="themeSwitcher">
+    <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Change theme">
+      <span class="theme-icon" id="themeIcon">🌅</span>
+      <span class="theme-chevron">▾</span>
+    </button>
+    <div class="theme-menu" id="themeMenu">
+      <div class="theme-menu-title">Choose Theme</div>
+      <button class="theme-option" data-theme="parchment">
+        <span class="theme-swatch" style="background:linear-gradient(135deg,#F7F3ED,#B8772A)"></span>
+        <span class="theme-option-text">
+          <span class="theme-option-name">🌅 Parchment</span>
+          <span class="theme-option-desc">Warm light</span>
+        </span>
+      </button>
+      <button class="theme-option" data-theme="midnight">
+        <span class="theme-swatch" style="background:linear-gradient(135deg,#0D0F1A,#D4A853)"></span>
+        <span class="theme-option-text">
+          <span class="theme-option-name">🌙 Midnight</span>
+          <span class="theme-option-desc">Dark indigo</span>
+        </span>
+      </button>
+      <button class="theme-option" data-theme="emerald">
+        <span class="theme-swatch" style="background:linear-gradient(135deg,#F2F7F4,#2A7A52)"></span>
+        <span class="theme-option-text">
+          <span class="theme-option-name">🌿 Emerald</span>
+          <span class="theme-option-desc">Fresh green</span>
+        </span>
+      </button>
+      <button class="theme-option" data-theme="regal">
+        <span class="theme-swatch" style="background:linear-gradient(135deg,#12091E,#D4A853)"></span>
+        <span class="theme-option-text">
+          <span class="theme-option-name">👑 Regal</span>
+          <span class="theme-option-desc">Dark purple</span>
+        </span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<main>
+<div class="page-hero">
+    <div class="page-hero-glow"></div>
+    <div class="eyebrow">Calendar</div>
+    <h1>IAGT <span class="gold-text">Events</span></h1>
+    <p>From intimate cultural gatherings to Tulsa's largest Indian festival — there's always something to celebrate.</p>
+  </div>
+
+  <div class="section">
+    <!-- Featured event -->
+    <div class="eyebrow">Featured</div>
+    <h2 style="margin-bottom:32px;">India Fest <span class="gold-text">2025</span></h2>
+    <div class="featured-evt glass fade-up" style="margin-bottom:64px;">
+      <div class="featured-evt-thumb">🎊</div>
+      <div class="featured-evt-body">
+        <div class="free-tag">FREE &amp; Open to the Public</div>
+        <h2 style="margin-bottom:28px;font-size:2.2rem;">India Fest 2025</h2>
+        <div class="evt-detail-row">
+          <div class="evt-detail-icon">📅</div>
+          <span>Saturday, August 23, 2025</span>
+        </div>
+        <div class="evt-detail-row">
+          <div class="evt-detail-icon">📍</div>
+          <span>Rhema Ninowski Recreation Center, Broken Arrow, OK</span>
+        </div>
+        <div class="evt-detail-row">
+          <div class="evt-detail-icon">🕐</div>
+          <span>11:00 AM – 9:00 PM</span>
+        </div>
+        <div class="evt-detail-row" style="margin-bottom:32px;">
+          <div class="evt-detail-icon">🎭</div>
+          <span>Cultural performances, food, music, dance, art &amp; more</span>
+        </div>
+        <div style="display:flex;gap:14px;flex-wrap:wrap;">
+          <a class="btn btn-primary">Register Now</a>
+          <a href="#" class="btn btn-secondary" href="booth.html">Reserve a Booth</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Event grid -->
+    <div class="eyebrow">Annual Calendar</div>
+    <h2 style="margin-bottom:32px;">All <span class="gold-text">Events</span></h2>
+    <div class="evt-grid">
+      <div class="evt-grid-card fade-up">
+        <div style="font-size:2rem;margin-bottom:16px;">🎆</div>
+        <div class="evt-date">January 26, 2026</div>
+        <div class="evt-title" style="font-size:1.2rem;margin-bottom:8px;">Republic Day</div>
+        <p style="font-size:0.88rem;">Celebrating India's Republic Day with cultural ceremony and community gathering.</p>
+      </div>
+      <div class="evt-grid-card fade-up d1">
+        <div style="font-size:2rem;margin-bottom:16px;">🌈</div>
+        <div class="evt-date">Spring 2026</div>
+        <div class="evt-title" style="font-size:1.2rem;margin-bottom:8px;">Holi – Festival of Colors</div>
+        <p style="font-size:0.88rem;">A joyful celebration of spring with music, colors, and traditional sweets.</p>
+      </div>
+      <div class="evt-grid-card fade-up d2">
+        <div style="font-size:2rem;margin-bottom:16px;">🪔</div>
+        <div class="evt-date">October 2026</div>
+        <div class="evt-title" style="font-size:1.2rem;margin-bottom:8px;">Diwali Celebration</div>
+        <p style="font-size:0.88rem;">The festival of lights — performances, fireworks, and community gathering.</p>
+      </div>
+      <div class="evt-grid-card fade-up d3">
+        <div style="font-size:2rem;margin-bottom:16px;">🥂</div>
+        <div class="evt-date">December 31, 2026</div>
+        <div class="evt-title" style="font-size:1.2rem;margin-bottom:8px;">New Year's Eve Gala</div>
+        <p style="font-size:0.88rem;">Ring in the New Year with dinner, dancing, and our vibrant community.</p>
+      </div>
+    </div>
+  </div>
+
+<!-- ════════════════════════════════════════
+     MEMBERSHIP PAGE
+     ════════════════════════════════════════ -->
+
+</main>
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div style="display:flex;align-items:center;gap:12px;margin-bottom:4px;">
+        <div class="nav-logo-mark" style="width:36px;height:36px;">🪷</div>
+        <div class="footer-logo"><em>IA</em>GT</div>
+      </div>
+      <p>India Association of Greater Tulsa — celebrating culture, building community, and fostering unity across Greater Tulsa since 1972. Nonprofit 501(c)(3).</p>
+    </div>
+    <div class="footer-col">
+      <h4>Navigate</h4>
+      <a href="index.html">Home</a>
+      <a href="about.html">About IAGT</a>
+      <a href="events.html">Events</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="footer-col">
+      <h4>Get Involved</h4>
+      <a href="membership.html">Membership</a>
+      <a href="sponsorship.html">Sponsorship</a>
+      <a href="booth.html">Booth Registration</a>
+    </div>
+    <div class="footer-col">
+      <h4>Connect</h4>
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">iagtok.org</a>
+      <a href="#"><span class="__cf_email__" data-cfemail="4e272028210e272f293a212560213c29">[email&#160;protected]</span></a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 India Association of Greater Tulsa · All rights reserved · Nonprofit 501(c)(3)</p>
+    <p style="color:rgba(247,243,237,0.18);">iagtok.org</p>
+  </div>
+</footer>
+
+
+<script src="js/main.js"></script>
+</body>
+</html>

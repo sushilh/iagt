@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="parchment">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home — IAGT</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,800;0,900;1,400;1,600&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-active="home">
+
+<!-- AMBIENT BACKGROUND -->
+<div class="bg-scene" aria-hidden="true">
+  <div class="bg-gradient"></div>
+  <div class="bg-grid"></div>
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+  <div class="orb orb-4"></div>
+</div>
+
+<!-- ══════════════ NAVBAR ══════════════ -->
+<nav id="nav">
+  <a href="index.html" class="nav-logo">
+    <div class="nav-logo-mark">🪷</div>
+    <div class="nav-logo-text"><em>IA</em>GT</div>
+  </a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html"        data-page="home">Home</a></li>
+    <li><a href="about.html"        data-page="about">About</a></li>
+    <li><a href="events.html"       data-page="events">Events</a></li>
+    <li><a href="membership.html"   data-page="membership">Membership</a></li>
+    <li><a href="sponsorship.html"  data-page="sponsorship">Sponsorship</a></li>
+    <li><a href="booth.html"        data-page="booth">Booth Reg.</a></li>
+    <li><a href="contact.html"      data-page="contact">Contact</a></li>
+    <li><a href="membership.html"   class="nav-cta">Join IAGT</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger">
+    <span></span><span></span><span></span>
+  </div>
+  <!-- THEME SWITCHER -->
+  <div class="theme-switcher" id="themeSwitcher">
+    <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Change theme">
+      <span class="theme-icon" id="themeIcon">🌅</span>
+      <span class="theme-chevron">▾</span>
+    </button>
+    <div class="theme-menu" id="themeMenu">
+      <div class="theme-menu-title">Choose Theme</div>
+      <button class="theme-option" data-theme="parchment">
+        <span class="theme-swatch" style="background:linear-gradient(135deg,#F7F3ED,#B8772A)"></span>
+        <span class="theme-option-text">
+          <span class="theme-option-name">🌅 Parchment</span>
+          <span class="theme-option-desc">Warm light</span>
+        </span>
+      </button>
+      <button class="theme-option" data-theme="midnight">
+        <span class="theme-swatch" style="background:linear-gradient(135deg,#0D0F1A,#D4A853)"></span>
+        <span class="theme-option-text">
+          <span class="theme-option-name">🌙 Midnight</span>
+          <span class="theme-option-desc">Dark indigo</span>
+        </span>
+      </button>
+      <button class="theme-option" data-theme="emerald">
+        <span class="theme-swatch" style="background:linear-gradient(135deg,#F2F7F4,#2A7A52)"></span>
+        <span class="theme-option-text">
+          <span class="theme-option-name">🌿 Emerald</span>
+          <span class="theme-option-desc">Fresh green</span>
+        </span>
+      </button>
+      <button class="theme-option" data-theme="regal">
+        <span class="theme-swatch" style="background:linear-gradient(135deg,#12091E,#D4A853)"></span>
+        <span class="theme-option-text">
+          <span class="theme-option-name">👑 Regal</span>
+          <span class="theme-option-desc">Dark purple</span>
+        </span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<main>
+<!-- HERO -->
+  <div class="hero">
+    <div class="hero-ring ring-1"></div>
+    <div class="hero-ring ring-2"></div>
+    <div class="hero-ring ring-3"></div>
+    <div class="hero-card-3d hero-inner" id="heroCard">
+      <div class="hero-gold-line"></div>
+      <div class="hero-badge">
+        <span class="hero-badge-dot"></span>
+        Est. 1972 · Tulsa, Oklahoma
+      </div>
+      <h1 class="hero-title">India Association<br>of <span class="gold-text">Greater Tulsa</span></h1>
+      <p class="hero-sub">Celebrating Culture. Community. Unity.</p>
+      <p class="hero-desc">Bringing the richness of Indian heritage to Tulsa — fostering unity, cultural awareness, and lasting community bonds for over 50 years.</p>
+      <div class="hero-btns">
+        <a href="#" class="btn btn-primary" href="membership.html">Become a Member</a>
+        <a href="#" class="btn btn-secondary" href="events.html">Upcoming Events</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- STATS -->
+  <div class="section" style="padding-top:0;">
+    <div class="stats-strip fade-up">
+      <div class="stat-item">
+        <div class="stat-num">50+</div>
+        <div class="stat-label">Years of Service</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">500+</div>
+        <div class="stat-label">Member Families</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">12</div>
+        <div class="stat-label">Annual Events</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">10K+</div>
+        <div class="stat-label">Festival Visitors</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MISSION -->
+  <div class="section" style="padding-top:0;">
+    <div class="mission-grid glass fade-up">
+      <div class="mission-text">
+        <div class="eyebrow">Our Mission</div>
+        <h2 style="margin-bottom:24px;">A Community<br>Built on <span class="gold-text">Heritage</span></h2>
+        <p style="margin-bottom:20px;">The India Association of Greater Tulsa is a nonprofit dedicated to promoting unity, cultural awareness, and community engagement among people of Indian origin and the broader Tulsa community.</p>
+        <p style="margin-bottom:36px;">Through festivals, scholarships, and civic engagement, we preserve the richness of Indian culture while building lasting bridges across our communities.</p>
+        <a href="#" class="btn btn-outline" href="about.html">Learn More About Us</a>
+      </div>
+      <div class="mission-visual">
+        <div class="mission-orb-ring"></div>
+        <div class="mission-orb-card">🪔</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- UPCOMING EVENTS CAROUSEL -->
+  <div style="padding:0 48px 80px;max-width:1240px;margin:0 auto;position:relative;z-index:1;">
+    <div class="events-shell fade-up">
+      <div class="events-shell-header">
+        <div class="eyebrow">What's Coming</div>
+        <h2>Upcoming Events</h2>
+      </div>
+      <div class="carousel-track-wrap" id="evtCarousel">
+        <div class="carousel-track">
+          <div class="evt-card tilt-card">
+            <div class="evt-thumb">🎊</div>
+            <div class="evt-date">August 23, 2025</div>
+            <div class="evt-title">India Fest 2025</div>
+            <div class="evt-loc">📍 Rhema Ninowski Recreation Center</div>
+            <a href="#" class="btn btn-outline" style="font-size:0.8rem;padding:10px 20px" href="events.html">View Details</a>
+          </div>
+          <div class="evt-card tilt-card">
+            <div class="evt-thumb">🎆</div>
+            <div class="evt-date">January 26, 2026</div>
+            <div class="evt-title">Republic Day Celebration</div>
+            <div class="evt-loc">📍 Tulsa Cultural Center</div>
+            <a class="btn btn-outline" style="font-size:0.8rem;padding:10px 20px">View Details</a>
+          </div>
+          <div class="evt-card tilt-card">
+            <div class="evt-thumb">🌈</div>
+            <div class="evt-date">March 2026</div>
+            <div class="evt-title">Holi – Festival of Colors</div>
+            <div class="evt-loc">📍 TBD, Greater Tulsa</div>
+            <a class="btn btn-outline" style="font-size:0.8rem;padding:10px 20px">View Details</a>
+          </div>
+          <div class="evt-card tilt-card">
+            <div class="evt-thumb">🪔</div>
+            <div class="evt-date">October 2026</div>
+            <div class="evt-title">Diwali Celebration</div>
+            <div class="evt-loc">📍 Tulsa Arts District</div>
+            <a class="btn btn-outline" style="font-size:0.8rem;padding:10px 20px">View Details</a>
+          </div>
+          <div class="evt-card tilt-card">
+            <div class="evt-thumb">🥂</div>
+            <div class="evt-date">December 31, 2026</div>
+            <div class="evt-title">New Year's Eve Gala</div>
+            <div class="evt-loc">📍 Tulsa Convention Center</div>
+            <a class="btn btn-outline" style="font-size:0.8rem;padding:10px 20px">View Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="carr-controls">
+        <button class="carr-btn" onclick="scrollEvt(-1)">←</button>
+        <button class="carr-btn" onclick="scrollEvt(1)">→</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ANNUAL CELEBRATIONS -->
+  <div class="section" style="padding-top:0;">
+    <div class="fade-up" style="text-align:center;margin-bottom:0;">
+      <div class="eyebrow">Year Round</div>
+      <h2>Annual Celebrations</h2>
+    </div>
+    <div class="annual-grid">
+      <div class="ann-card fade-up d1">
+        <div class="ann-icon">🎆</div>
+        <div class="ann-name">Republic Day</div>
+        <div class="ann-desc">Honoring India's constitutional legacy with ceremony and community pride</div>
+      </div>
+      <div class="ann-card fade-up d2">
+        <div class="ann-icon">🌈</div>
+        <div class="ann-name">Holi</div>
+        <div class="ann-desc">A vibrant celebration of spring, color, and joyful renewal</div>
+      </div>
+      <div class="ann-card fade-up d3">
+        <div class="ann-icon">🎊</div>
+        <div class="ann-name">India Fest</div>
+        <div class="ann-desc">Our flagship annual festival showcasing culture and cuisine</div>
+      </div>
+      <div class="ann-card fade-up d4">
+        <div class="ann-icon">🪔</div>
+        <div class="ann-name">Diwali</div>
+        <div class="ann-desc">The festival of lights, illuminating our Tulsa community</div>
+      </div>
+      <div class="ann-card fade-up d5">
+        <div class="ann-icon">🥂</div>
+        <div class="ann-name">New Year's Eve</div>
+        <div class="ann-desc">Ringing in the new year with music, dance, and togetherness</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SPONSOR CAROUSEL -->
+  <div class="section" style="padding-top:0;">
+    <div class="fade-up" style="text-align:center;margin-bottom:40px;">
+      <div class="eyebrow">Our Partners</div>
+      <h2>Sponsors & <span class="gold-text">Supporters</span></h2>
+      <p style="margin-top:12px;max-width:480px;margin-left:auto;margin-right:auto;">These incredible organizations make our events and community programs possible.</p>
+    </div>
+
+    <div class="sponsor-shell fade-up">
+      <div class="sponsor-shell-header" style="padding-bottom:0;"></div>
+
+      <!-- Platinum row -->
+      <div class="sponsor-row">
+        <div class="sponsor-row-label">
+          <div class="sponsor-row-line"></div>
+          <span class="tier-plat-label">✦ Platinum Sponsors</span>
+          <div class="sponsor-row-line"></div>
+        </div>
+        <div class="scroll-fade-mask">
+          <div class="inf-track slow">
+            <div class="spon-pill plat">🏛 Tulsa Medical Group</div>
+            <div class="spon-pill plat">🌐 Axiom Technologies</div>
+            <div class="spon-pill plat">🏦 Midland Capital Partners</div>
+            <div class="spon-pill plat">⚕️ OklaCare Health Systems</div>
+            <!-- duplicate -->
+            <div class="spon-pill plat">🏛 Tulsa Medical Group</div>
+            <div class="spon-pill plat">🌐 Axiom Technologies</div>
+            <div class="spon-pill plat">🏦 Midland Capital Partners</div>
+            <div class="spon-pill plat">⚕️ OklaCare Health Systems</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Gold row -->
+      <div class="sponsor-row">
+        <div class="sponsor-row-label">
+          <div class="sponsor-row-line"></div>
+          <span class="tier-gold-label">✦ Gold Sponsors</span>
+          <div class="sponsor-row-line"></div>
+        </div>
+        <div class="scroll-fade-mask">
+          <div class="inf-track reverse">
+            <div class="spon-pill gold">🍽 Spice Route Tulsa</div>
+            <div class="spon-pill gold">🏘 Greenfield Realty</div>
+            <div class="spon-pill gold">💊 OklaPharm Solutions</div>
+            <div class="spon-pill gold">🖥 DevCore Systems</div>
+            <div class="spon-pill gold">🎓 University of Tulsa</div>
+            <div class="spon-pill gold">✈️ VoyageTulsa Travel</div>
+            <!-- duplicate -->
+            <div class="spon-pill gold">🍽 Spice Route Tulsa</div>
+            <div class="spon-pill gold">🏘 Greenfield Realty</div>
+            <div class="spon-pill gold">💊 OklaPharm Solutions</div>
+            <div class="spon-pill gold">🖥 DevCore Systems</div>
+            <div class="spon-pill gold">🎓 University of Tulsa</div>
+            <div class="spon-pill gold">✈️ VoyageTulsa Travel</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Silver row -->
+      <div class="sponsor-row" style="margin-bottom:0;">
+        <div class="sponsor-row-label">
+          <div class="sponsor-row-line"></div>
+          <span class="tier-silv-label">✦ Silver Sponsors</span>
+          <div class="sponsor-row-line"></div>
+        </div>
+        <div class="scroll-fade-mask">
+          <div class="inf-track" style="animation-duration:20s;">
+            <div class="spon-pill silv">🎭 Tulsa Performing Arts</div>
+            <div class="spon-pill silv">🌿 Heritage Organics</div>
+            <div class="spon-pill silv">🏋 FitLife Studios</div>
+            <div class="spon-pill silv">📺 Tulsa World Media</div>
+            <div class="spon-pill silv">☕ Chai Collective</div>
+            <div class="spon-pill silv">🏗 Cornerstone Builders</div>
+            <!-- duplicate -->
+            <div class="spon-pill silv">🎭 Tulsa Performing Arts</div>
+            <div class="spon-pill silv">🌿 Heritage Organics</div>
+            <div class="spon-pill silv">🏋 FitLife Studios</div>
+            <div class="spon-pill silv">📺 Tulsa World Media</div>
+            <div class="spon-pill silv">☕ Chai Collective</div>
+            <div class="spon-pill silv">🏗 Cornerstone Builders</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:28px;" class="fade-up">
+      <a href="#" class="btn btn-outline" href="sponsorship.html">Become a Sponsor</a>
+    </div>
+  </div>
+
+  <!-- MEMBERSHIP CTA -->
+  <div style="padding:0 48px 100px;max-width:900px;margin:0 auto;position:relative;z-index:1;" class="fade-up">
+    <div class="glass-deep cta-block">
+      <div class="eyebrow">Join Our Community</div>
+      <h2>Become a Member<br>of <span class="gold-text">IAGT</span></h2>
+      <p>Support culture, scholarship, and community leadership in Tulsa. Together, we celebrate our heritage and build a stronger future.</p>
+      <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:40px;">
+        <a href="#" class="btn btn-primary" href="membership.html">Join IAGT Today</a>
+        <a href="#" class="btn btn-secondary" href="contact.html">Get in Touch</a>
+      </div>
+    </div>
+  </div>
+
+
+</main>
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div style="display:flex;align-items:center;gap:12px;margin-bottom:4px;">
+        <div class="nav-logo-mark" style="width:36px;height:36px;">🪷</div>
+        <div class="footer-logo"><em>IA</em>GT</div>
+      </div>
+      <p>India Association of Greater Tulsa — celebrating culture, building community, and fostering unity across Greater Tulsa since 1972. Nonprofit 501(c)(3).</p>
+    </div>
+    <div class="footer-col">
+      <h4>Navigate</h4>
+      <a href="index.html">Home</a>
+      <a href="about.html">About IAGT</a>
+      <a href="events.html">Events</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="footer-col">
+      <h4>Get Involved</h4>
+      <a href="membership.html">Membership</a>
+      <a href="sponsorship.html">Sponsorship</a>
+      <a href="booth.html">Booth Registration</a>
+    </div>
+    <div class="footer-col">
+      <h4>Connect</h4>
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">iagtok.org</a>
+      <a href="#"><span class="__cf_email__" data-cfemail="4e272028210e272f293a212560213c29">[email&#160;protected]</span></a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 India Association of Greater Tulsa · All rights reserved · Nonprofit 501(c)(3)</p>
+    <p style="color:rgba(247,243,237,0.18);">iagtok.org</p>
+  </div>
+</footer>
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
