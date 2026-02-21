@@ -9,7 +9,8 @@ var THEMES = {
   parchment: { icon: '🌅' },
   midnight:  { icon: '🌙' },
   emerald:   { icon: '🌿' },
-  regal:     { icon: '👑' }
+  regal:     { icon: '👑' },
+  classic:   { icon: '🪷' }
 };
 
 function setTheme(name) {
