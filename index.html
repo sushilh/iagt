@@ -25,17 +25,41 @@
 <!-- ══════════════ NAVBAR ══════════════ -->
 <nav id="nav">
   <a href="index.html" class="nav-logo">
-    <div class="nav-logo-mark">🪷</div>
+    <div class="nav-logo-mark"><img src="images\iagt-logo.png" alt="IAGT Logo" style="width:100%;height:100%;object-fit:contain;border-radius:50%;"></div>
     <div class="nav-logo-text"><em>IA</em>GT</div>
   </a>
   <ul class="nav-links" id="navLinks">
-    <li><a href="index.html"        data-page="home">Home</a></li>
-    <li><a href="about.html"        data-page="about">About</a></li>
-    <li><a href="events.html"       data-page="events">Events</a></li>
-    <li><a href="membership.html"   data-page="membership">Membership</a></li>
-    <li><a href="sponsorship.html"  data-page="sponsorship">Sponsorship</a></li>
-    <li><a href="booth.html"        data-page="booth">Booth Reg.</a></li>
-    <li><a href="contact.html"      data-page="contact">Contact</a></li>
+    <li><a href="index.html" data-page="home">Home</a></li>
+    <li class="has-submenu"><a href="about.html" data-page="about">About ▾</a>
+		<ul class="submenu">
+		<li><a href="bylaws.html">By Laws</a></li>
+		<li><a href="board.html">Board</a></li>
+		<li><a href="executivecommittee.html">Executive Committee</a></li>
+	  </ul>
+	</li>
+	<!-- submenus - By laws, Board and executive committee//-->
+    <li class="has-submenu"><a href="events.html" data-page="events">Events ▾</a>
+		<ul class="submenu">
+		<li><a href="annual.html">Annual Events</a></li>
+		<li><a href="utsav.html">Utsav/India Fest</a></li>
+		<li><a href="Communitycollaborations.html">Community collaborations</a></li>
+	  </ul>
+	</li>
+	<!-- submenus - Annual events, Ustav/India Fest and Community collaborations>
+		<li><a href="booth.html"        data-page="booth">Booth Reg.</a></li//-->
+	
+    <li class="has-submenu"><a href="GetInvloved.html" data-page="getInvolved">Get Involved ▾</a>
+		<ul class="submenu">
+			<li><a href="membership.html">Membership</a></li>
+			<li><a href="sponsorship.html">Sponsorship</a></li>
+			<li><a href="Volunteers.html">Volunteers</a></li>
+		</ul>
+	  <!-- <a href="membership.html"   data-page="membership">Membership</a> -->
+		<!-- <a href="sponsorship.html"  data-page="sponsorship">Sponsorship</a> -->
+		<!-- <a href="Volunteers.html"  data-page="Volunteers">Volunteers</a> 
+		Need a form with personal details so that one could opt for volunteering-->
+	</li>
+    <li><a href="contact.html" data-page="contact">Contact Us</a></li>
     <li><a href="membership.html"   class="nav-cta">Join IAGT</a></li>
   </ul>
   <div class="hamburger" id="hamburger">
@@ -95,38 +119,17 @@
     <div class="hero-ring ring-3"></div>
     <div class="hero-card-3d hero-inner" id="heroCard">
       <div class="hero-gold-line"></div>
-      <div class="hero-badge">
-        <span class="hero-badge-dot"></span>
-        Est. 1972 · Tulsa, Oklahoma
-      </div>
+      <!-- <div class="hero-badge"> -->
+        <!-- <span class="hero-badge-dot"></span> -->
+        <!-- Est. 1972 · Tulsa, Oklahoma -->
+      <!-- </div> -->
       <h1 class="hero-title">India Association<br>of <span class="gold-text">Greater Tulsa</span></h1>
       <p class="hero-sub">Celebrating Culture. Community. Unity.</p>
       <p class="hero-desc">Bringing the richness of Indian heritage to Tulsa — fostering unity, cultural awareness, and lasting community bonds for over 50 years.</p>
-      <div class="hero-btns">
-        <a href="#" class="btn btn-primary" href="membership.html">Become a Member</a>
-        <a href="#" class="btn btn-secondary" href="events.html">Upcoming Events</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- STATS -->
-  <div class="section" style="padding-top:0;">
-    <div class="stats-strip fade-up">
-      <div class="stat-item">
-        <div class="stat-num">50+</div>
-        <div class="stat-label">Years of Service</div>
-      </div>
-      <div class="stat-item">
-        <div class="stat-num">500+</div>
-        <div class="stat-label">Member Families</div>
-      </div>
-      <div class="stat-item">
-        <div class="stat-num">12</div>
-        <div class="stat-label">Annual Events</div>
-      </div>
-      <div class="stat-item">
-        <div class="stat-num">10K+</div>
-        <div class="stat-label">Festival Visitors</div>
+      <div style="margin-top:28px;display:flex;flex-wrap:wrap;gap:20px;justify-content:center;font-size:0.85rem;opacity:0.75;">
+        <span>📮 P.O. Box 471802, Tulsa, OK 74147</span>
+        <span>✉️ contactiagt@gmail.com</span>
+        <span>📞 (918) 928-5667</span>
       </div>
     </div>
   </div>
@@ -135,11 +138,11 @@
   <div class="section" style="padding-top:0;">
     <div class="mission-grid glass fade-up">
       <div class="mission-text">
-        <div class="eyebrow">Our Mission</div>
+        <div class="eyebrow">Our Purpose</div>
         <h2 style="margin-bottom:24px;">A Community<br>Built on <span class="gold-text">Heritage</span></h2>
-        <p style="margin-bottom:20px;">The India Association of Greater Tulsa is a nonprofit dedicated to promoting unity, cultural awareness, and community engagement among people of Indian origin and the broader Tulsa community.</p>
-        <p style="margin-bottom:36px;">Through festivals, scholarships, and civic engagement, we preserve the richness of Indian culture while building lasting bridges across our communities.</p>
-        <a href="#" class="btn btn-outline" href="about.html">Learn More About Us</a>
+        <p style="margin-bottom:20px;">We promote communication and unity among people of Indian origin as well as those who have an interest in India.</p>
+        <p style="margin-bottom:20px;">The India Association of Greater Tulsa is established to promote strong and close communication, solidarity, unity and understanding, among people of Indian origin, of all ages, living in the Greater Tulsa area, and to instill a better understanding of Indian culture in the local communities.</p>
+        <p style="margin-bottom:36px;">The Association is a secular organization. Any person with roots in India and/or interest in Indian culture is eligible to become a member and participate in Association activities.</p>
       </div>
       <div class="mission-visual">
         <div class="mission-orb-ring"></div>
@@ -153,56 +156,63 @@
     <div class="events-shell fade-up">
       <div class="events-shell-header">
         <div class="eyebrow">What's Coming</div>
-        <h2>Upcoming Events</h2>
+        <h2>Upcoming Event</h2>
       </div>
       <div class="carousel-track-wrap" id="evtCarousel">
         <div class="carousel-track">
-          <div class="evt-card tilt-card">
+          <!--div class="evt-card tilt-card">
             <div class="evt-thumb">🎊</div>
             <div class="evt-date">August 23, 2025</div>
-            <div class="evt-title">India Fest 2025</div>
-            <div class="evt-loc">📍 Rhema Ninowski Recreation Center</div>
-            <a href="#" class="btn btn-outline" style="font-size:0.8rem;padding:10px 20px" href="events.html">View Details</a>
+            <div class="evt-title">Utsav — India Fest 2025</div>
+            <div class="evt-loc">📍 Rhema Ninowski Recreation Center, Broken Arrow</div>
+            <a href="events.html" class="btn btn-outline" style="font-size:0.8rem;padding:10px 20px">View Details</a>
           </div>
           <div class="evt-card tilt-card">
             <div class="evt-thumb">🎆</div>
             <div class="evt-date">January 26, 2026</div>
-            <div class="evt-title">Republic Day Celebration</div>
-            <div class="evt-loc">📍 Tulsa Cultural Center</div>
-            <a class="btn btn-outline" style="font-size:0.8rem;padding:10px 20px">View Details</a>
+            <div class="evt-title">Republic Day Celebration & GBM</div>
+            <div class="evt-loc">📍 Greater Tulsa Area</div>
+            <a href="events.html" class="btn btn-outline" style="font-size:0.8rem;padding:10px 20px">View Details</a>
           </div>
+          <div class="evt-card tilt-card">
+            <div class="evt-thumb">🎤</div>
+            <div class="evt-date">Coming Soon</div>
+            <div class="evt-title">Karaoke Night</div>
+            <div class="evt-loc">📍 Greater Tulsa Area</div>
+            <a href="events.html" class="btn btn-outline" style="font-size:0.8rem;padding:10px 20px">View Details</a>
+          </div//-->
           <div class="evt-card tilt-card">
             <div class="evt-thumb">🌈</div>
-            <div class="evt-date">March 2026</div>
-            <div class="evt-title">Holi – Festival of Colors</div>
-            <div class="evt-loc">📍 TBD, Greater Tulsa</div>
-            <a class="btn btn-outline" style="font-size:0.8rem;padding:10px 20px">View Details</a>
+            <div class="evt-date">Spring 2026</div>
+            <div class="evt-title">Holi Celebration</div>
+            <div class="evt-loc">📍 Greater Tulsa Area</div>
+            <a href="events.html" class="btn btn-outline" style="font-size:0.8rem;padding:10px 20px">View Details</a>
           </div>
-          <div class="evt-card tilt-card">
+          <!--div class="evt-card tilt-card">
             <div class="evt-thumb">🪔</div>
             <div class="evt-date">October 2026</div>
             <div class="evt-title">Diwali Celebration</div>
-            <div class="evt-loc">📍 Tulsa Arts District</div>
-            <a class="btn btn-outline" style="font-size:0.8rem;padding:10px 20px">View Details</a>
+            <div class="evt-loc">📍 Greater Tulsa Area</div>
+            <a href="events.html" class="btn btn-outline" style="font-size:0.8rem;padding:10px 20px">View Details</a>
           </div>
           <div class="evt-card tilt-card">
             <div class="evt-thumb">🥂</div>
             <div class="evt-date">December 31, 2026</div>
-            <div class="evt-title">New Year's Eve Gala</div>
-            <div class="evt-loc">📍 Tulsa Convention Center</div>
-            <a class="btn btn-outline" style="font-size:0.8rem;padding:10px 20px">View Details</a>
+            <div class="evt-title">New Year's Eve Party</div>
+            <div class="evt-loc">📍 Greater Tulsa Area</div>
+            <a href="events.html" class="btn btn-outline" style="font-size:0.8rem;padding:10px 20px">View Details</a>
           </div>
-        </div>
+        </div//-->
       </div>
-      <div class="carr-controls">
-        <button class="carr-btn" onclick="scrollEvt(-1)">←</button>
-        <button class="carr-btn" onclick="scrollEvt(1)">→</button>
-      </div>
+      <!-- <div class="carr-controls"> -->
+        <!-- <button class="carr-btn" onclick="scrollEvt(-1)">←</button> -->
+        <!-- <button class="carr-btn" onclick="scrollEvt(1)">→</button> -->
+      <!-- </div> -->
     </div>
   </div>
 
   <!-- ANNUAL CELEBRATIONS -->
-  <div class="section" style="padding-top:0;">
+  <!--div class="section" style="padding-top:0;">
     <div class="fade-up" style="text-align:center;margin-bottom:0;">
       <div class="eyebrow">Year Round</div>
       <h2>Annual Celebrations</h2>
@@ -210,31 +220,36 @@
     <div class="annual-grid">
       <div class="ann-card fade-up d1">
         <div class="ann-icon">🎆</div>
-        <div class="ann-name">Republic Day</div>
+        <div class="ann-name">Republic Day & GBM</div>
         <div class="ann-desc">Honoring India's constitutional legacy with ceremony and community pride</div>
       </div>
       <div class="ann-card fade-up d2">
-        <div class="ann-icon">🌈</div>
-        <div class="ann-name">Holi</div>
-        <div class="ann-desc">A vibrant celebration of spring, color, and joyful renewal</div>
+        <div class="ann-icon">🎤</div>
+        <div class="ann-name">Karaoke Night</div>
+        <div class="ann-desc">A fun-filled evening of music, singing, and community bonding</div>
       </div>
       <div class="ann-card fade-up d3">
-        <div class="ann-icon">🎊</div>
-        <div class="ann-name">India Fest</div>
-        <div class="ann-desc">Our flagship annual festival showcasing culture and cuisine</div>
+        <div class="ann-icon">🌈</div>
+        <div class="ann-name">Holi Celebration</div>
+        <div class="ann-desc">A vibrant celebration of spring, color, and joyful renewal</div>
       </div>
       <div class="ann-card fade-up d4">
-        <div class="ann-icon">🪔</div>
-        <div class="ann-name">Diwali</div>
-        <div class="ann-desc">The festival of lights, illuminating our Tulsa community</div>
+        <div class="ann-icon">🎊</div>
+        <div class="ann-name">Utsav — India Fest</div>
+        <div class="ann-desc">Our flagship annual festival showcasing culture, cuisine, and performances</div>
       </div>
       <div class="ann-card fade-up d5">
+        <div class="ann-icon">🪔</div>
+        <div class="ann-name">Diwali Celebration</div>
+        <div class="ann-desc">The festival of lights, illuminating our Tulsa community</div>
+      </div>
+      <div class="ann-card fade-up">
         <div class="ann-icon">🥂</div>
-        <div class="ann-name">New Year's Eve</div>
+        <div class="ann-name">New Year's Eve Party</div>
         <div class="ann-desc">Ringing in the new year with music, dance, and togetherness</div>
       </div>
     </div>
-  </div>
+  </div//-->
 
   <!-- SPONSOR CAROUSEL -->
   <div class="section" style="padding-top:0;">
@@ -331,10 +346,10 @@
     <div class="glass-deep cta-block">
       <div class="eyebrow">Join Our Community</div>
       <h2>Become a Member<br>of <span class="gold-text">IAGT</span></h2>
-      <p>Support culture, scholarship, and community leadership in Tulsa. Together, we celebrate our heritage and build a stronger future.</p>
+      <p>Any person with roots in India and/or interest in Indian culture is eligible to become a member. Support culture, scholarship, and community leadership in Tulsa.</p>
       <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:40px;">
-        <a href="#" class="btn btn-primary" href="membership.html">Join IAGT Today</a>
-        <a href="#" class="btn btn-secondary" href="contact.html">Get in Touch</a>
+        <a href="membership.html" class="btn btn-primary">Join IAGT Today</a>
+        <a href="contact.html" class="btn btn-secondary">Get in Touch</a>
       </div>
     </div>
   </div>
@@ -345,16 +360,20 @@
   <div class="footer-grid">
     <div class="footer-brand">
       <div style="display:flex;align-items:center;gap:12px;margin-bottom:4px;">
-        <div class="nav-logo-mark" style="width:36px;height:36px;">🪷</div>
+        <div class="nav-logo-mark" style="width:48px;height:48px;background:transparent;box-shadow:none;border-radius:50%;overflow:hidden;">
+          <img src="images\iagt-logo.png" alt="IAGT Logo" style="width:100%;height:100%;object-fit:contain;border-radius:50%;">
+        </div>
         <div class="footer-logo"><em>IA</em>GT</div>
       </div>
-      <p>India Association of Greater Tulsa — celebrating culture, building community, and fostering unity across Greater Tulsa since 1972. Nonprofit 501(c)(3).</p>
+      <p>India Association of Greater Tulsa — celebrating culture, building community, and fostering unity across Greater Tulsa since 1972. Nonprofit 501(c)(3).<br><small>P.O. Box 471802, Tulsa, OK 74147</small></p>
     </div>
     <div class="footer-col">
       <h4>Navigate</h4>
       <a href="index.html">Home</a>
-      <a href="about.html">About IAGT</a>
+      <a href="about.html">About Us</a> 
+		<!-- submenus - By laws, Board and executive committee//-->
       <a href="events.html">Events</a>
+		<!-- submenus - Annual events, Ustav/India Fest and Community collaborations//-->
       <a href="contact.html">Contact</a>
     </div>
     <div class="footer-col">
@@ -367,8 +386,9 @@
       <h4>Connect</h4>
       <a href="#">Facebook</a>
       <a href="#">Instagram</a>
-      <a href="#">iagtok.org</a>
-      <a href="#"><span class="__cf_email__" data-cfemail="4e272028210e272f293a212560213c29">[email&#160;protected]</span></a>
+      <a href="https://iagtok.org">iagtok.org</a>
+      <a href="mailto:contactiagt@gmail.com">contactiagt@gmail.com</a>
+      <a href="tel:9189285667">(918) 928-5667</a>
     </div>
   </div>
   <div class="footer-bottom">
@@ -379,5 +399,17 @@
 
 
 <script src="js/main.js"></script>
+<script>
+  // Mobile submenu toggle — tap parent link to expand/collapse
+  document.querySelectorAll('.has-submenu > a').forEach(link => {
+    link.addEventListener('click', function(e) {
+      if (window.innerWidth <= 960) {
+        e.preventDefault();
+        const parent = this.parentElement;
+        parent.classList.toggle('open');
+      }
+    });
+  });
+</script>
 </body>
 </html>

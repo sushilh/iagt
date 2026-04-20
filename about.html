@@ -25,17 +25,41 @@
 <!-- ══════════════ NAVBAR ══════════════ -->
 <nav id="nav">
   <a href="index.html" class="nav-logo">
-    <div class="nav-logo-mark">🪷</div>
+    <div class="nav-logo-mark"><img src="images\iagt-logo.png" alt="IAGT Logo" style="width:100%;height:100%;object-fit:contain;border-radius:50%;"></div>
     <div class="nav-logo-text"><em>IA</em>GT</div>
   </a>
   <ul class="nav-links" id="navLinks">
-    <li><a href="index.html"        data-page="home">Home</a></li>
-    <li><a href="about.html"        data-page="about">About</a></li>
-    <li><a href="events.html"       data-page="events">Events</a></li>
-    <li><a href="membership.html"   data-page="membership">Membership</a></li>
-    <li><a href="sponsorship.html"  data-page="sponsorship">Sponsorship</a></li>
-    <li><a href="booth.html"        data-page="booth">Booth Reg.</a></li>
-    <li><a href="contact.html"      data-page="contact">Contact</a></li>
+    <li><a href="index.html" data-page="home">Home</a></li>
+    <li class="has-submenu"><a href="about.html" data-page="about">About ▾</a>
+		<ul class="submenu">
+		<li><a href="bylaws.html">By Laws</a></li>
+		<li><a href="board.html">Board</a></li>
+		<li><a href="executivecommittee.html">Executive Committee</a></li>
+	  </ul>
+	</li>
+	<!-- submenus - By laws, Board and executive committee//-->
+    <li class="has-submenu"><a href="events.html" data-page="events">Events ▾</a>
+		<ul class="submenu">
+		<li><a href="annual.html">Annual Events</a></li>
+		<li><a href="utsav.html">Utsav/India Fest</a></li>
+		<li><a href="Communitycollaborations.html">Community collaborations</a></li>
+	  </ul>
+	</li>
+	<!-- submenus - Annual events, Ustav/India Fest and Community collaborations>
+		<li><a href="booth.html"        data-page="booth">Booth Reg.</a></li//-->
+	
+    <li class="has-submenu"><a href="GetInvloved.html" data-page="getInvolved">Get Involved ▾</a>
+		<ul class="submenu">
+			<li><a href="membership.html">Membership</a></li>
+			<li><a href="sponsorship.html">Sponsorship</a></li>
+			<li><a href="Volunteers.html">Volunteers</a></li>
+		</ul>
+	  <!-- <a href="membership.html"   data-page="membership">Membership</a> -->
+		<!-- <a href="sponsorship.html"  data-page="sponsorship">Sponsorship</a> -->
+		<!-- <a href="Volunteers.html"  data-page="Volunteers">Volunteers</a> 
+		Need a form with personal details so that one could opt for volunteering-->
+	</li>
+    <li><a href="contact.html" data-page="contact">Contact Us</a></li>
     <li><a href="membership.html"   class="nav-cta">Join IAGT</a></li>
   </ul>
   <div class="hamburger" id="hamburger">
@@ -99,53 +123,44 @@
     <div class="glass fade-up" style="padding:52px;margin-bottom:48px;">
       <div class="eyebrow">Mission</div>
       <h2 style="margin-bottom:20px;">What We <span class="gold-text">Stand For</span></h2>
-      <p>The India Association of Greater Tulsa is a nonprofit dedicated to promoting unity, cultural awareness, and community engagement among people of Indian origin and the broader Tulsa community. Founded with a spirit of service, IAGT has been a cornerstone of Indian-American life in Oklahoma for over 50 years.</p>
+      <p style="margin-bottom:16px;">The India Association of Greater Tulsa (IAGT) is established to promote strong and close communication, solidarity, unity and understanding, among people of Indian origin, of all ages, living in the Greater Tulsa area, and to instill a better understanding of Indian culture in the local communities.</p>
+      <p style="margin-bottom:16px;">The Association will work to advance the cause of people of Indian origin with appropriate interactions with individuals and organizations.</p>
+      <p style="margin-bottom:16px;">The Association is a non-profit organization and its operation shall meet regulatory requirements applicable to such organizations.</p>
+      <p>The Association is a secular organization. Any person with roots in India and/or interest in Indian culture is eligible to become a member and participate in Association activities.</p>
     </div>
 
     <div style="margin-bottom:64px;">
       <div class="eyebrow">Leadership</div>
       <h2 style="margin-bottom:32px;">Board of <span class="gold-text">Directors</span></h2>
       <div class="board-grid">
-        <div class="glass board-card fade-up">
-          <div class="board-avatar">👤</div>
-          <div class="board-name">President</div>
-          <div class="board-role">Executive Board</div>
-        </div>
-        <div class="glass board-card fade-up d1">
-          <div class="board-avatar">👤</div>
-          <div class="board-name">Vice President</div>
-          <div class="board-role">Executive Board</div>
-        </div>
-        <div class="glass board-card fade-up d2">
-          <div class="board-avatar">👤</div>
-          <div class="board-name">Secretary</div>
-          <div class="board-role">Executive Board</div>
-        </div>
-        <div class="glass board-card fade-up d3">
-          <div class="board-avatar">👤</div>
-          <div class="board-name">Treasurer</div>
-          <div class="board-role">Executive Board</div>
-        </div>
-        <div class="glass board-card fade-up d4">
-          <div class="board-avatar">👤</div>
-          <div class="board-name">Cultural Director</div>
-          <div class="board-role">Executive Committee</div>
-        </div>
-        <div class="glass board-card fade-up d5">
-          <div class="board-avatar">👤</div>
-          <div class="board-name">Youth Coordinator</div>
-          <div class="board-role">Executive Committee</div>
-        </div>
-        <div class="glass board-card fade-up">
-          <div class="board-avatar">👤</div>
-          <div class="board-name">Events Chair</div>
-          <div class="board-role">Executive Committee</div>
-        </div>
-        <div class="glass board-card fade-up d1">
-          <div class="board-avatar">👤</div>
-          <div class="board-name">PR Director</div>
-          <div class="board-role">Executive Committee</div>
-        </div>
+        <div class="glass board-card fade-up"><div class="board-avatar">👤</div><div class="board-name">Anjily Kunnapuli</div><div class="board-role">Board of Directors</div></div>
+        <div class="glass board-card fade-up d1"><div class="board-avatar">👤</div><div class="board-name">Brinda Ganesan</div><div class="board-role">Board of Directors</div></div>
+        <div class="glass board-card fade-up d2"><div class="board-avatar">👤</div><div class="board-name">James Jacob</div><div class="board-role">Board of Directors</div></div>
+        <div class="glass board-card fade-up d3"><div class="board-avatar">👤</div><div class="board-name">Pradeep John</div><div class="board-role">Board of Directors</div></div>
+        <div class="glass board-card fade-up d4"><div class="board-avatar">👤</div><div class="board-name">Raghu Kurella</div><div class="board-role">Board of Directors</div></div>
+        <div class="glass board-card fade-up d5"><div class="board-avatar">👤</div><div class="board-name">Sailesh (Sam) Patel</div><div class="board-role">Board of Directors</div></div>
+        <div class="glass board-card fade-up"><div class="board-avatar">👤</div><div class="board-name">Sangita Patel</div><div class="board-role">Board of Directors</div></div>
+        <div class="glass board-card fade-up d1"><div class="board-avatar">👤</div><div class="board-name">Dr. Sreeli Krishna</div><div class="board-role">Board of Directors</div></div>
+        <div class="glass board-card fade-up d2"><div class="board-avatar">👤</div><div class="board-name">Venkat Reddy</div><div class="board-role">Board of Directors</div></div>
+        <div class="glass board-card fade-up d3"><div class="board-avatar">👤</div><div class="board-name">Venu Gopal Reddy</div><div class="board-role">Board of Directors</div></div>
+        <div class="glass board-card fade-up d4"><div class="board-avatar">👤</div><div class="board-name">Vikky Jani</div><div class="board-role">Board of Directors</div></div>
+      </div>
+    </div>
+
+    <div style="margin-bottom:64px;">
+      <div class="eyebrow">Executive Committee 2026–27</div>
+      <h2 style="margin-bottom:32px;">IAGT <span class="gold-text">Leadership Team</span></h2>
+      <div class="board-grid">
+        <div class="glass board-card fade-up"><div class="board-avatar">👤</div><div class="board-name">Manju Kaul</div><div class="board-role">President</div></div>
+        <div class="glass board-card fade-up d1"><div class="board-avatar">👤</div><div class="board-name">Rex Trivedi</div><div class="board-role">President-Elect</div></div>
+        <div class="glass board-card fade-up d2"><div class="board-avatar">👤</div><div class="board-name">Kishor Kurapati</div><div class="board-role">Secretary</div></div>
+        <div class="glass board-card fade-up d3"><div class="board-avatar">👤</div><div class="board-name">Neha Sangal Bhatia</div><div class="board-role">Joint Secretary</div></div>
+        <div class="glass board-card fade-up d4"><div class="board-avatar">👤</div><div class="board-name">Subha Ravi</div><div class="board-role">Treasurer</div></div>
+        <div class="glass board-card fade-up d5"><div class="board-avatar">👤</div><div class="board-name">Varsha Desai</div><div class="board-role">Joint Treasurer</div></div>
+        <div class="glass board-card fade-up"><div class="board-avatar">👤</div><div class="board-name">Poornima Basa</div><div class="board-role">Cultural Events Officer</div></div>
+        <div class="glass board-card fade-up d1"><div class="board-avatar">👤</div><div class="board-name">Jaswant Bhele</div><div class="board-role">Cultural Events Officer</div></div>
+        <div class="glass board-card fade-up d2"><div class="board-avatar">👤</div><div class="board-name">Amit Agarwal</div><div class="board-role">Cultural Events Officer</div></div>
+        <div class="glass board-card fade-up d3"><div class="board-avatar">👤</div><div class="board-name">Vivek Savant</div><div class="board-role">Cultural Events Officer</div></div>
       </div>
     </div>
 
@@ -166,7 +181,7 @@
   <div class="footer-grid">
     <div class="footer-brand">
       <div style="display:flex;align-items:center;gap:12px;margin-bottom:4px;">
-        <div class="nav-logo-mark" style="width:36px;height:36px;">🪷</div>
+        <div class="nav-logo-mark" style="width:36px;height:36px;"><img src="images\iagt-logo.png" alt="IAGT Logo" style="width:100%;height:100%;object-fit:contain;border-radius:50%;"></div>
         <div class="footer-logo"><em>IA</em>GT</div>
       </div>
       <p>India Association of Greater Tulsa — celebrating culture, building community, and fostering unity across Greater Tulsa since 1972. Nonprofit 501(c)(3).</p>
@@ -188,8 +203,9 @@
       <h4>Connect</h4>
       <a href="#">Facebook</a>
       <a href="#">Instagram</a>
-      <a href="#">iagtok.org</a>
-      <a href="#"><span class="__cf_email__" data-cfemail="4e272028210e272f293a212560213c29">[email&#160;protected]</span></a>
+      <a href="https://iagtok.org">iagtok.org</a>
+      <a href="mailto:contactiagt@gmail.com">contactiagt@gmail.com</a>
+      <a href="tel:9189285667">(918) 928-5667</a>
     </div>
   </div>
   <div class="footer-bottom">
@@ -200,5 +216,17 @@
 
 
 <script src="js/main.js"></script>
+<script>
+  // Mobile submenu toggle — tap parent link to expand/collapse
+  document.querySelectorAll('.has-submenu > a').forEach(link => {
+    link.addEventListener('click', function(e) {
+      if (window.innerWidth <= 960) {
+        e.preventDefault();
+        const parent = this.parentElement;
+        parent.classList.toggle('open');
+      }
+    });
+  });
+</script>
 </body>
 </html>

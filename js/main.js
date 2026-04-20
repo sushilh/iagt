@@ -48,6 +48,19 @@ function scrollEvt(dir) {
 /* ── FADE UP ON SCROLL ── */
 function initFade() {
   var els = document.querySelectorAll('.fade-up');
+
+  // Step 1: mark everything already in viewport as visible
+  els.forEach(function(el) {
+    var r = el.getBoundingClientRect();
+    if (r.top < window.innerHeight && r.bottom > 0) {
+      el.classList.add('visible');
+    }
+  });
+
+  // Step 2: NOW apply js-loaded so CSS hides only the non-visible ones
+  document.documentElement.classList.add('js-loaded');
+
+  // Step 3: observe remaining elements for scroll-in animation
   var obs = new IntersectionObserver(function(entries) {
     entries.forEach(function(e) {
       if (e.isIntersecting) e.target.classList.add('visible');
@@ -71,17 +84,9 @@ function initTilt() {
   });
 }
 
-/* ── HERO PARALLAX ── */
+/* ── HERO PARALLAX — disabled, hero card is static ── */
 function initParallax() {
-  var hc = document.getElementById('heroCard');
-  if (!hc) return;
-  document.addEventListener('mousemove', function(e) {
-    var cx = window.innerWidth  / 2;
-    var cy = window.innerHeight / 2;
-    var dx = (e.clientX - cx) / cx;
-    var dy = (e.clientY - cy) / cy;
-    hc.style.transform = 'perspective(1000px) rotateX(' + (-dy*4) + 'deg) rotateY(' + (dx*4) + 'deg)';
-  });
+  /* intentionally empty */
 }
 
 /* ── ACTIVE NAV LINK ── */
